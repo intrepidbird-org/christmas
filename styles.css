@@ -8,7 +8,7 @@ body {
 }
 
 header, footer {
-    background-color: #dc3545;
+    background-color: #2c5234; /* Dark green color */
     padding: 20px;
     text-align: center;
 }
@@ -26,6 +26,12 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adding a box shadow for pop-out effect */
+    transition: transform 0.3s ease-in-out; /* Adding a transition for smooth hover effect */
+}
+
+.challenge:hover {
+    transform: scale(1.05); /* Increasing the size on hover for a pop-out effect */
 }
 
 .challenge h3 {
@@ -35,3 +41,4 @@ h1 {
 .challenge p {
     margin-bottom: 0;
 }
+
