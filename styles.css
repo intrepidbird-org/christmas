@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+#challenges .card {
+    margin-bottom: 20px;
+}
