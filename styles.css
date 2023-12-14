@@ -3,9 +3,14 @@ body {
 }
 
 header {
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
 }
 
-#challenges .card {
-    margin-bottom: 20px;
+#challenges {
+    background-color: rgba(0, 128, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
 }
