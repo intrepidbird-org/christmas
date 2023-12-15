@@ -3,45 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christmas CTF</title>
+    <title>BRCS Christmas Special</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/santa.jpg">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        header, footer {
+            background-color: red;
+            color: white;
+            padding: 20px;
+        }
+
+        .challenge-card {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .challenge-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
-        <h1>Christmas CTF</h1>
-        <p>Test your hacking skills with our festive challenges!</p>
+        <h1>BRCS Christmas Special 🎅🎄</h1>
     </header>
 
     <!-- Challenges Section -->
-    <section class="container">
+    <section id="challenges" class="container mt-5">
         <div class="row">
-            <div class="col-md-6">
-                <div class="challenge">
-                    <h3>Challenge 1</h3>
-                    <p>Description for Challenge 1.</p>
-                </div>
-                <div class="challenge">
-                    <h3>Challenge 2</h3>
+            <div class="col-md-4">
+                <div class="challenge-card">
+                    <h3>Missing Reindeer (500 pts)</h3>
+                    <p>Elves took control of Santa's Christmas factory and they kidnapped Rudolf as well. Can you save Santa's favorite reindeer just using the email we captured?</p>
+            </div>
+            <div class="col-md-4">
+                <div class="challenge-card">
+                    <h3></h3>
                     <p>Description for Challenge 2.</p>
                 </div>
-                <div class="challenge">
+            </div>
+            <div class="col-md-4">
+                <div class="challenge-card">
                     <h3>Challenge 3</h3>
                     <p>Description for Challenge 3.</p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="challenge">
+            <div class="col-md-4">
+                <div class="challenge-card">
                     <h3>Challenge 4</h3>
                     <p>Description for Challenge 4.</p>
                 </div>
-                <div class="challenge">
+            </div>
+            <div class="col-md-4">
+                <div class="challenge-card">
                     <h3>Challenge 5</h3>
                     <p>Description for Challenge 5.</p>
                 </div>
-                <div class="challenge">
+            </div>
+            <div class="col-md-4">
+                <div class="challenge-card">
                     <h3>Challenge 6</h3>
                     <p>Description for Challenge 6.</p>
                 </div>
@@ -49,9 +83,9 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2021 Christmas CTF. All rights reserved.</p>
+        &copy; 2023 BRCS Christmas. All rights reserved.
     </footer>
 
     <!-- Bootstrap & jQuery JS -->
