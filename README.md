@@ -1,4 +1,4 @@
-# BRCS Christmas Tournament🎅🎄
+# 🎅 BRCS Christmas Tournament🎄
 
 ## 🎅 BRCS Christmas Tournament Rules and Guidelines :
 
