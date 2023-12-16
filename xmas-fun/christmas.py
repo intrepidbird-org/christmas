@@ -1,5 +1,5 @@
 # Merry Christmas from the BRCS Team!🎅🎄
-# Running this code and changing 'Change this' will result in a Christmas card from terminal 🎅🎄
+# Running this code and changing 'Change this' will result in a Christmas card displayed in ASCII art from terminal 🎅🎄
 
 class ChristmasCard:
     """
