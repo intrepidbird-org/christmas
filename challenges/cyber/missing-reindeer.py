@@ -15,7 +15,7 @@ n = p * q
 
 message = b"🎅 [CENSORED] 🎅"
 holly = bytes_to_long(message)
-jolly = pow(pt, e, n)
+jolly = pow(holly, e, n)
 
 print(f"n = {n}")
 print(f"e = {e}")
