@@ -40,7 +40,7 @@
 
 ### 🎅 Teams:
 
-🎄 - “BRCS Christmas Tournament” is a 5-8 member team CTF. BRCS leadership may change this limit at any moment before the tournament officially starts.
+🎄 - “BRCS Christmas Tournament” is a 5-8 member team competition. BRCS leadership may change this limit at any moment before the tournament officially starts.
 
 🎄 - Teams that add members without consent from leadership will be penalized/disqualified.
 
